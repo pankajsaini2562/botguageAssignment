@@ -53,6 +53,7 @@ export default function SearchDropdown() {
 
   const [text, setText] = useState("Text");
   const [inputValue, setInputValue] = useState("Text");
+
   const [isEditing, setIsEditing] = useState(false);
 
   const handleSearchChange = (e) => {
